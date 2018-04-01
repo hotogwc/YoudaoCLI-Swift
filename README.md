@@ -1,3 +1,4 @@
 # YoudaoCLI-Swift
 
-A description of this package.
+A command line tool for You Dao dictionary written in Swift
+
