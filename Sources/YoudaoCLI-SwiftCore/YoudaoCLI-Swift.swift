@@ -19,7 +19,7 @@ public final class YoudaoCLISwift {
     
     public typealias ArgumentType = (words: [String], isVoice: Bool, isMore: Bool)
     
-    struct QueryURLs {
+    struct Query {
         let isMore: Bool
         let words: [String]
         let queryString: String
@@ -74,7 +74,7 @@ public final class YoudaoCLISwift {
         var doc: HTMLDocument?
         
         
-        let query = QueryURLs(words: _argumentType.words, isMore: _argumentType.isMore)
+        let query = Query(words: _argumentType.words, isMore: _argumentType.isMore)
         let spinner = Spinner(pattern: .dots2)
         spinner.start()
         do {
