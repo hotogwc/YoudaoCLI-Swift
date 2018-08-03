@@ -13,8 +13,6 @@ brew install hotogwc/tap/Youdaoswift
 
 ## Speech
 
-Starting from V0.9, speech feature is available. You need to install mpg123 to enable this feature.
-
 ___NOTICE:___ Currently, speech feature is only available for MacOS/Linux.
 
 #### Mac OS
